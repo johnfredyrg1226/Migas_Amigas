@@ -1,3 +1,31 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+.pie_pagina{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 179, 0, 0.51);
+  text-align: center;
+}
+.dostitulo,
+.titulo{
+  text-align: center;
+  color: blue;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+  background-color:beige;
+    background-size: cover; /* Cubre todo el área del cuerpo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Altura del 100% de la ventana del navegador */
+    font-size: 18px;
+    background-color: f5f6f7;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +64,10 @@
     transform: rotate(360deg);
   }
 }
+.boton-grande {
+  width: 800px; /* Ancho del botón */
+  height: 100px; /* Alto del botón */
+  font-size: 20px; /* Tamaño del texto dentro del botón */
+}
+
+

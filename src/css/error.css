@@ -1,0 +1,14 @@
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 200;
+    font-size: 35px;
+    
+}
+/*imagen tamaño*/
+.imagen{
+  width: 600px;
+  height: 600px;
+}

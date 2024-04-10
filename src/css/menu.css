@@ -1,0 +1,5 @@
+.boton-grande {
+  width: 200px; /* Ancho del botón */
+  height: 100px; /* Alto del botón */
+  font-size: 20px; /* Tamaño del texto dentro del botón */
+}

@@ -1,0 +1,36 @@
+.contenedor_principal{
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+.contenedor-principal{
+  width: 1170px;/*Establece el ancho del elemento en 1170 píxeles.*/
+  height: 368px;/*Establece la altura del elemento en 368 píxeles*/
+  margin: 10px 10px 80px;/*Establece los márgenes del elemento. Los valores se dan en el orden superior, derecho, inferior e izquierdo, en sentido horario, respectivamente.*/
+  display: flex;/*Define el modelo de caja flexible para el elemento*/
+  align-items: center;/*Alinea los elementos hijos verticalmente dentro del contenedor flexible. */
+  justify-content: center;/* Alinea los elementos hijos horizontalmente dentro del contenedor flexible*/
+  background-color: #ffffff;/*Establece el color de fondo del elemento en blanco */
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);/*Aplica una sombra alrededor del borde del elemento./
+}
+.contenedor-texto{
+  text-align: center; /* alinea el texto en el centro dentro del contenedor al que se aplica*/
+  font-size: 18px;/*Establece el tamaño del texto en 18 píxeles*/
+  padding: 40px;/*Agrega un relleno (espacio) de 40 píxeles alrededor del contenido */
+  font-family: lato, sans-serif;/*Especifica la familia de fuentes utilizada para el texto*/
+  font-weight: 400;/*Establece el peso de la fuente. Un valor de 400 generalmente se refiere a la "normalidad" de la fuente.*/
+  line-height: 1.5rem;/*Define la altura de línea para el texto. Este valor controla la distancia vertical entre cada línea de texto.*/
+  
+}
+.enlace{
+  font-weight: bold; /* Establece el texto en negrita */
+  text-decoration: underline; /* Subraya el texto */
+}
+.imagen_tamaño{
+  width: 600px;
+  height: 400px;
+  border: 2px solid black; /* Tamaño, tipo y color del borde */
+}
