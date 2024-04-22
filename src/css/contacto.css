@@ -1,0 +1,53 @@
+/* Establece la apariencia básica de la tabla */
+table {
+  border-collapse: collapse; /* Colapsa los bordes de las celdas en una sola línea */
+  width: 100%; /* La tabla ocupa el ancho completo de su contenedor */
+}
+
+/* Establece estilos para celdas de encabezado y celdas de datos */
+th, td {
+  border: 1px solid #dddddd; /* Borde de 1 píxel sólido de color gris claro */
+  text-align: left; /* Alinea el texto a la izquierda dentro de las celdas */
+  padding: 8px; /* Espacio interno de 8 píxeles alrededor del contenido */
+}
+
+/* Establece el color de fondo para las celdas de encabezado */
+/* Establece el ancho de las celdas de encabezado en porcentaje */
+th {
+  background-color: #cccccc; /* Color de fondo gris claro para las celdas de encabezado */
+  width: 20%; /* Porcentaje del ancho total de la tabla */
+}
+
+/* Establece el ancho de las celdas de datos en porcentaje */
+td {
+  width: 30%; /* Porcentaje del ancho total de la tabla */
+}
+
+/* Cambia el color de fondo de las filas cuando el mouse está sobre ellas */
+tr:hover {
+  background-color: #f5f5f5; /* Color de fondo gris aún más claro al pasar el mouse sobre las filas */
+}
+
+/* Establece estilos para los enlaces */
+a {
+  text-decoration: none; /* Elimina la decoración de subrayado predeterminada */
+  color: #007bff; /* Establece el color de texto de los enlaces a azul */
+}
+
+/* Aplica un subrayado al pasar el mouse sobre un enlace */
+a:hover {
+  text-decoration: underline; /* Subraya el texto del enlace */
+}
+/* Estilo para las celdas impares en cada fila */
+tr:nth-child(odd) td {
+  background-color: #f2f2f2; /* Color de fondo para las celdas impares */
+}
+
+/* Estilo para las celdas pares en cada fila */
+tr:nth-child(even) td {
+  background-color: #ffffff; /* Color de fondo para las celdas pares */
+}
+.trabaja,
+h1{
+  text-align: center;
+}
