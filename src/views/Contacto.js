@@ -10,6 +10,7 @@ function TrabajaConNosotrosForm() {
     alert(' Formulario enviado correctamente');
 
   };
+  
   return (
     <div>
       {formularioEnviado ? (

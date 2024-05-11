@@ -17,13 +17,12 @@ html,
 body {
     margin: 0;
     padding: 0;
-  background-color:beige;
+    background-color:hwb(60 86% 4%);
     background-size: cover; /* Cubre todo el área del cuerpo */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     height: 100vh; /* Altura del 100% de la ventana del navegador */
     font-size: 18px;
-    background-color: f5f6f7;
 }
 
 .App {

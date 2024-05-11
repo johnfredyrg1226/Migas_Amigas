@@ -7,12 +7,12 @@ const Menu = () => {
   const { t } = useTranslation();
 
   return (
-    <div>
-    <a className='boton-grande' type="button" href="/"><button> {t("navInicio")} </button></a>
-      <a className='boton-grande' type="button" href="/panaderia"><button> Ir a Panaderia </button></a>
-      <a className='boton-grande'  type="button" href="/pasteleriaBolleria"><button>Ir a Pasteleria Bolleria </button></a>
-      <a className='boton-grande' type="button" href="/empanadas"><button>Ir a Empanadas </button></a>
-      <a className='boton-grande' type="button" href="/contacto"><button>Ir a Contactos </button></a>
+    <div className='boton-grande'>
+      <a className='boton-grandes' href="/">{t("navInicio")}</a>
+      <a className='boton-grandes' href="/panaderia"> Ir a Panaderia </a>
+      <a className='boton-grandes' href="/pasteleriaBolleria">Ir a Pasteleria Bolleria </a>
+      <a className='boton-grandes' href="/empanadas">Ir a Empanadas </a>
+      <a className='boton-grandes' href="/contacto">Ir a Contactos </a>
     </div>
   )
 }

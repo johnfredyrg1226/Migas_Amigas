@@ -6,7 +6,7 @@ const Panaderia = () => {
       <h2>elavoración de nuestro mejor pan de todo tipo</h2>
 
       <br />
-      <h2>Pan de Trigo</h2>
+      <h2>Pan de Trigo.</h2>
       <img
         className="pan_trigo"
         alt="imagen de pan de trigo redondo"

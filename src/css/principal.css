@@ -28,9 +28,14 @@
 .enlace{
   font-weight: bold; /* Establece el texto en negrita */
   text-decoration: underline; /* Subraya el texto */
+  color: black;
 }
 .imagen_tamaño{
   width: 600px;
   height: 400px;
   border: 2px solid black; /* Tamaño, tipo y color del borde */
+}
+
+ol li {
+  margin-bottom: 10px; /* Agrega 10px de margen inferior entre elementos de lista */
 }

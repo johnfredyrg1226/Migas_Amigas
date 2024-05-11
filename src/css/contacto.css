@@ -9,6 +9,7 @@ th, td {
   border: 1px solid #dddddd; /* Borde de 1 píxel sólido de color gris claro */
   text-align: left; /* Alinea el texto a la izquierda dentro de las celdas */
   padding: 8px; /* Espacio interno de 8 píxeles alrededor del contenido */
+  color: black;
 }
 
 /* Establece el color de fondo para las celdas de encabezado */
@@ -17,21 +18,10 @@ th {
   background-color: #cccccc; /* Color de fondo gris claro para las celdas de encabezado */
   width: 20%; /* Porcentaje del ancho total de la tabla */
 }
-
-/* Establece el ancho de las celdas de datos en porcentaje */
-td {
-  width: 30%; /* Porcentaje del ancho total de la tabla */
-}
-
-/* Cambia el color de fondo de las filas cuando el mouse está sobre ellas */
-tr:hover {
-  background-color: #f5f5f5; /* Color de fondo gris aún más claro al pasar el mouse sobre las filas */
-}
-
 /* Establece estilos para los enlaces */
 a {
   text-decoration: none; /* Elimina la decoración de subrayado predeterminada */
-  color: #007bff; /* Establece el color de texto de los enlaces a azul */
+  color: black; /* Establece el color de texto de los enlaces a azul */
 }
 
 /* Aplica un subrayado al pasar el mouse sobre un enlace */
@@ -47,6 +37,7 @@ tr:nth-child(odd) td {
 tr:nth-child(even) td {
   background-color: #ffffff; /* Color de fondo para las celdas pares */
 }
+
 .trabaja,
 h1{
   text-align: center;

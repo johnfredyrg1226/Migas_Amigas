@@ -1,5 +1,30 @@
+/* Estilos para el contenedor de los botones */
 .boton-grande {
-  width: 200px; /* Ancho del botón */
-  height: 100px; /* Alto del botón */
-  font-size: 20px; /* Tamaño del texto dentro del botón */
+  display: flex; /* Utiliza flexbox para centrar los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+  height: 10vh; /* Establece la altura al 10% del viewport */
+}
+
+/* Estilos para los botones */
+.boton-grandes {
+  display: inline-flex; /* Utiliza flexbox en línea para alinear los botones horizontalmente */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  width: 120px; /* Ancho del botón */
+  height: 50px; /* Alto del botón */
+  font-size: 16px; /* Tamaño del texto dentro del botón */
+  color: black; /* Color del texto */
+  background-color: #007bff; /* Color de fondo del botón */
+  border: none; /* Quita el borde */
+  border-radius: 20px; /* Bordes redondeados */
+  text-decoration: none; /* Quita el subrayado del enlace */
+  text-align: center; /* Centra el texto horizontalmente */
+  transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+  margin: 8px; /* Añade margen entre los botones */
+}
+
+/* Estilos para los botones al pasar el ratón */
+.boton-grandes:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón */
 }
